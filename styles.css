@@ -1,0 +1,172 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.box1 {
+    background: linear-gradient(180deg, #7755FA, #4E32A8);
+    color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 20px 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 200px;
+}
+
+.result-header {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.score {
+    font-size: 72px;
+    font-weight: bold;
+    background-color: #4E32A8;
+    color: white;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+
+.score span {
+    display: block;
+    font-size: 16px;
+    color: #888;
+    font-weight: normal;
+}
+
+.large-white-text {
+    font-size: 90px; /* زيادة حجم الرقم */
+    color: white; /* جعل اللون أبيض */
+}
+
+.result-text h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.result-text p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.box2 {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box2 div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    height: 60px;
+}
+
+.Reaction-item .score1,
+.Memory-item .score1,
+.Verbal-item .score1,
+.Visual-item .score1 {
+    color: #000;
+}
+
+.Reaction-item .score1 {
+    color: #000;
+}
+
+.Memory-item .score1 {
+    color: #000;
+}
+
+.Verbal-item .score1 {
+    color: #000;
+}
+
+.Visual-item .score1 {
+    color: #000;
+}
+
+.box2 span.score1 {
+    color: #888;
+    margin-left: 10px;
+    line-height: 1;
+}
+
+.Reaction-item {
+    background-color: #ffe5e5;
+}
+
+.Memory-item {
+    background-color: #fff4d5;
+}
+
+.Verbal-item {
+    background-color: #e7f8f3;
+}
+
+.Visual-item {
+    background-color: #e8ebf9;
+}
+
+.label {
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+}
+
+.score {
+    font-size: 14px;
+    color: #888;
+    font-weight: normal;
+    margin-left: 10px;
+    line-height: 1;
+}
+
+button {
+    background-color: #303B59;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #4e5c84;
+}
+
+@media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+}
